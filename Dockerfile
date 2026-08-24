@@ -24,7 +24,8 @@ COPY docker/apache-vhost.conf /etc/apache2/sites-available/000-default.conf
 COPY --from=vendor /app/vendor ./vendor
 COPY . .
 
-RUN mkdir -p config/jwt var/cache var/log \
+RUN cp .env.example .env \
+    && mkdir -p config/jwt var/cache var/log \
     && chmod +x docker/entrypoint.sh \
     && chown -R www-data:www-data var config/jwt
 

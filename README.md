@@ -14,8 +14,20 @@ symfony server:start
 
 L'API est alors disponible sur `http://localhost:8000/api`.
 
+Les routes principales, le schéma Doctrine et les dépendances ont été contrôlés le 31 août 2026. Le compte rendu se trouve dans `preuves/RESULTATS-TESTS.md`.
+
 ## Déploiement Render
 
 Le dépôt contient un `Dockerfile` et un `render.yaml`. Le service utilise PostgreSQL sur Render et exécute automatiquement les migrations au démarrage.
 
 La variable `CORS_ALLOW_ORIGIN` doit autoriser l'URL publique du frontend. Les secrets et les clés JWT sont générés sur Render et ne sont pas enregistrés dans Git.
+
+## Ressources et documentation
+
+- Symfony : <https://symfony.com/doc/current/index.html>
+- API Platform : <https://api-platform.com/docs/>
+- API Platform avec Symfony : <https://api-platform.com/docs/symfony/>
+- Doctrine ORM : <https://www.doctrine-project.org/projects/doctrine-orm/en/current/index.html>
+- Doctrine dans Symfony : <https://symfony.com/doc/current/doctrine.html>
+- Authentification JWT avec API Platform : <https://api-platform.com/docs/core/jwt/>
+- Format JSON-LD/Hydra : <https://api-platform.com/docs/core/serialization/>

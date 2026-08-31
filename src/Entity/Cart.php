@@ -24,7 +24,7 @@ class Cart
     private Collection $products;
 
     #[ORM\Column]
-    private ?bool $IsValid = null;
+    private bool $isValid = false;
 
     public function __construct()
     {
@@ -60,14 +60,14 @@ class Cart
         return $this;
     }
 
-    public function isValid(): ?bool
+    public function isValid(): bool
     {
-        return $this->IsValid;
+        return $this->isValid;
     }
 
-    public function setIsValid(bool $IsValid): static
+    public function setValid(bool $isValid): static
     {
-        $this->IsValid = $IsValid;
+        $this->isValid = $isValid;
 
         return $this;
     }

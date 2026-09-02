@@ -2,6 +2,13 @@
 
 API Symfony / API Platform utilisée par l'application Picard. Elle gère les produits, les utilisateurs, l'authentification JWT, la fidélité et les commandes.
 
+## Liens du rendu
+
+- Dépôt GitHub : <https://github.com/DevinciAlex/picard-api>
+- Documentation API publique : <https://picard-api.onrender.com/api>
+- Endpoint de contrôle : <https://picard-api.onrender.com/api/products>
+- Vidéo de démonstration des routes : <https://youtu.be/0SF0GtuXnoI>
+
 ## Développement local
 
 Prérequis : PHP, Composer et les extensions SQLite.

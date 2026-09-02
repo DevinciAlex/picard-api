@@ -34,7 +34,10 @@ La variable `CORS_ALLOW_ORIGIN` doit autoriser l'URL publique du frontend. Les s
 - Symfony : <https://symfony.com/doc/current/index.html>
 - API Platform : <https://api-platform.com/docs/>
 - API Platform avec Symfony : <https://api-platform.com/docs/symfony/>
+- Opérations exposées par API Platform : <https://api-platform.com/docs/core/operations/>
 - Doctrine ORM : <https://www.doctrine-project.org/projects/doctrine-orm/en/current/index.html>
 - Doctrine dans Symfony : <https://symfony.com/doc/current/doctrine.html>
+- Migrations Doctrine dans Symfony : <https://symfony.com/bundles/DoctrineMigrationsBundle/current/index.html>
 - Authentification JWT avec API Platform : <https://api-platform.com/docs/core/jwt/>
+- Bundle LexikJWTAuthentication : <https://symfony.com/bundles/LexikJWTAuthenticationBundle/current/index.html>
 - Format JSON-LD/Hydra : <https://api-platform.com/docs/core/serialization/>
